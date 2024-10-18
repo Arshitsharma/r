@@ -97,7 +97,7 @@ The platform provides a user-friendly interface with the following key features:
 
 Here is the high-level system architecture of the platform:
 
-![System Architecture](./Untitled diagram-2024-10-18-135345.png)
+![System Architecture](./images/system-architecture.png)
 
 This architecture highlights the microservices design, communication protocols (WebSockets, APIs), and the use of horizontal scaling with Kubernetes.
 
