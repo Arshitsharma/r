@@ -105,7 +105,7 @@ This architecture highlights the microservices design, communication protocols (
 
 The following ER Diagram represents the key entities and relationships within the logistics platform:
 
-![ER Diagram](./images/er-diagram.png)
+![ER Diagram](./images/er-diagram.jpg)
 
 ## 7. Conclusion
 
