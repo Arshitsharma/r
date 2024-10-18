@@ -18,7 +18,9 @@ This logistics platform is designed to manage up to **50 million users**, **100,
    - [Geospatial Indexing with MongoDB](#geospatial-indexing-with-mongodb)
    - [Eventual Consistency and Asynchronous Writes](#eventual-consistency-and-asynchronous-writes)
 4. [User Interface](#4-user-interface)
-5. [Conclusion](#5-conclusion)
+5. [System Architecture](#5-system-architecture)
+6. [ER Diagram](#6-er-diagram)
+7. [Conclusion](#7-conclusion)
 
 ## 1. Major Design Decisions and Trade-offs
 
@@ -91,7 +93,21 @@ The platform provides a user-friendly interface with the following key features:
 4. **Regular Updates** – Users receive regular updates on the delivery status.
 5. **Driver View** – Drivers can track shipped orders in real-time.
 
-## 5. Conclusion
+## 5. System Architecture
+
+Here is the high-level system architecture of the platform:
+
+![System Architecture](./images/system-architecture.png)
+
+This architecture highlights the microservices design, communication protocols (WebSockets, APIs), and the use of horizontal scaling with Kubernetes.
+
+## 6. ER Diagram
+
+The following ER Diagram represents the key entities and relationships within the logistics platform:
+
+![ER Diagram](./images/er-diagram.png)
+
+## 7. Conclusion
 
 The logistics platform is architected to handle large-scale global operations while ensuring high performance, low latency, and scalability. By leveraging **microservices architecture**, **distributed data handling** with MongoDB and Redis, and **horizontal scaling** with Kubernetes, the platform can manage high traffic, real-time interactions, and data storage efficiently.
 
